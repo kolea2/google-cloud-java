@@ -462,6 +462,7 @@
     <module>google-cloud-vision</module>
     <module>google-cloud-video-intelligence</module>
     <module>google-cloud-websecurityscanner</module>
+    <module>google-cloud-webrisk</module>
   </modules>
   <pluginRepositories>
     <pluginRepository>

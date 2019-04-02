@@ -77,7 +77,7 @@ public class WebRiskServiceV1Beta1StubSettings
     extends StubSettings<WebRiskServiceV1Beta1StubSettings> {
   /** The default scopes of the service. */
   private static final ImmutableList<String> DEFAULT_SERVICE_SCOPES =
-      ImmutableList.<String>builder().build();
+      ImmutableList.<String>builder().add("https://www.googleapis.com/auth/cloud-platform").build();
 
   private final UnaryCallSettings<ComputeThreatListDiffRequest, ComputeThreatListDiffResponse>
       computeThreatListDiffSettings;
